@@ -7,4 +7,5 @@
 #  updated_at :datetime         not null
 #
 class Cart < ApplicationRecord
+    has_many :line_items, dependent: :destroy
 end

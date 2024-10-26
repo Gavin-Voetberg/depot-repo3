@@ -20,7 +20,7 @@
 #
 
 one:
-  product: one
+  product: two
   cart: one
 
 two:
