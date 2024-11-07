@@ -15,5 +15,7 @@ module CurrentCart
       rescue ActiveRecord::RecordNotFound
         @cart = Cart.create
         session[:cart_id] = @cart.id
+        puts "greats"
+        puts session[:cart_id]
       end
   end
